@@ -20,19 +20,19 @@ Edinton Hincapie — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante con enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones. Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
+Descripción: Estudiante de Ingeniería Industrial con enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones. Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
 
 Juan Jose (Apellido) — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
+Descripción: Estudiante de Ingeniería Industrial con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
 
 Laura Cardona — Documentación y pruebas/ Desarrollador
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante con habilidades en redacción técnica, organización y control de calidad. Encargada del manual de usuario, las pruebas funcionales del sistema y el seguimiento del plan de proyecto. Fortalezas en atención al detalle, comunicación y gestión documental.
+Descripción: Estudiante de Ingeniería Industrial con habilidades en redacción técnica, organización y control de calidad. Encargada del manual de usuario, las pruebas funcionales del sistema y el seguimiento del plan de proyecto. Fortalezas en atención al detalle, comunicación y gestión documental.
 
 ## 3. Nombre del proyecto
 
