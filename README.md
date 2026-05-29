@@ -91,19 +91,19 @@ PrestaFácil es una aplicación de consola desarrollada en Python que funciona c
 
 ### 6.2 Requisitos no funcionales
 
-* Usabilidad : La interfaz de consola debe ser clara y amigable, usando colores, separadores y mensajes descriptivos que guíen al usuario en cada paso.
+* Usabilidad: La interfaz de consola debe ser clara y amigable, usando colores, separadores y mensajes descriptivos que guíen al usuario en cada paso.
 
-* Rendimiento : El sistema debe responder a cualquier operación en menos de 2 segundos bajo condiciones normales (hasta 500 registros).
+* Rendimiento: El sistema debe responder a cualquier operación bajo condiciones normales.
 
-* Fiabilidad : El sistema no debe fallar ante entradas incorrectas del usuario; en su lugar, mostrará un mensaje de error claro y permitirá reintentar.
+* Fiabilidad: El sistema no debe fallar ante entradas incorrectas del usuario; en su lugar, mostrará un mensaje de error claro y permitirá reintentar.
 
-* Seguridad : El módulo de administración requiere autenticación con usuario y contraseña almacenados en el archivo admins.json.
+* Seguridad: El módulo de administración requiere autenticación con usuario y contraseña almacenados en un archivo exclusivo para los administradores.
 
-* Portabilidad : El software debe ejecutarse en Windows, Linux y macOS con Python 3.10+ sin necesidad de instalar librerías externas.
+* Portabilidad: El software debe ejecutarse en Windows, Linux y macOS con Python 3.10+ sin necesidad de instalar librerías externas.
 
-* Compatibilidad : Los archivos generados (.txt, .csv, .json) deben ser legibles en cualquier editor de texto.
+* Compatibilidad: Los archivos generados (.txt, .csv, .json) deben ser legibles en cualquier editor de texto.
 
-* Disponibilidad : El sistema opera de forma local y no requiere conexión a internet, estando disponible el 100% del tiempo que el equipo esté encendido.
+* Disponibilidad: El sistema opera de forma local y no requiere conexión a internet, estando disponible el 100% del tiempo que el equipo esté encendido.
 ## 7. Plan de proyecto
 
 ### 7.1 Diagrama de gantt
