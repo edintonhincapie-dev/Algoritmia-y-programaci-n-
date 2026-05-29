@@ -29,7 +29,7 @@ Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Cuenta con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
 
-* Laura Cardona algo — Documentación y pruebas/ Desarrollador
+* Laura Cardona algo — Documentación/ Desarrollador
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
