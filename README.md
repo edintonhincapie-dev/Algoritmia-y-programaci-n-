@@ -10,26 +10,26 @@
 
 ## 2. Vinculos academicos y descripcion
 
-Thomas Gomez Orejuela — Líder del equipo
+* Thomas Gomez Orejuela — Lider del equipo
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Interes en la optimizacion de procesos y programacion aplicada. Responsable de la coordinacion del equipo, la arquitectura del software. Habilidades en logica algoritmica, trabajo en equipo y resolucion de conflictos, esto mismo en caso de necesitarse.
 
-Edinton Hincapie algo — Desarrollador/ Documentacion
+* Edinton Hincapie algo — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Cuenta con un enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones, tambien, encargado de la gestión del repositorio GitHub.
 Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
 
-Juan Jose algo  — Desarrollador/ Documentacion
+* Juan Jose algo  — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Cuenta con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
 
-Laura Cardona algo — Documentación y pruebas/ Desarrollador
+* Laura Cardona algo — Documentación y pruebas/ Desarrollador
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
