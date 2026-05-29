@@ -6,7 +6,7 @@
 | Thomas Gomez Orejuela| CC| Lider de equipo|
 | Edinton Hincapie algo| CC| Desarrollador/ Documentacion|
 | Laura Cardona algo| CC| Desarrollador / Documentacion|
-|Juan Jose algo| CC| Desarrollador / Documentacion|
+|Juan Jose Urrego Higuita| CC| Desarrollador / Documentacion|
 
 ## 2. Vinculos academicos y descripcion
 
@@ -23,7 +23,7 @@ Programa: Ingeniería Industrial — Universidad de Antioquia
 Cuenta con un enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones, tambien, encargado de la gestión del repositorio GitHub.
 Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
 
-* Juan Jose algo  — Desarrollador/ Documentacion
+* Juan Jose Urrego Higuita  — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
@@ -48,7 +48,7 @@ Nuestro nombre refleja el propósito central: hacer que prestar y recordar sea f
 
 Este software se distribuye bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. 
 
-Este mismo permite a cualquier persona compartir, copiar, redistribuir, mezclar, transformar y crear a partir del código de PrestaFácil para cualquier propósito, incluso comercial, siempre y cuando se otorgue el crédito apropiado a los 4 autores originales (Thomas Gomez, Laura Cardona, Juan jose algo, Edinto Hincapie) y se indique en caso de realizarse cambios al codigo.
+Este mismo permite a cualquier persona compartir, copiar, redistribuir, mezclar, transformar y crear a partir del código de PrestaFácil para cualquier propósito, incluso comercial, siempre y cuando se otorgue el crédito apropiado a los 4 autores originales (Thomas Gomez, Laura Cardona, Juan jose Urrego, Edinto Hincapie) y se indique en caso de realizarse cambios al codigo.
 
 ## 5. Reporte de vision
 
@@ -111,9 +111,9 @@ Actividad                     | S1 (11-17/05)| S2 (18-24/05)| S3 (25-31/05) | S4
 ------------------------------|:------------:|:------------:|:-------------:|:------------:|:------------:|
 Analisis de requisitos        |   ██████████ |              |               |              |              |
 Diseño de las actas           |   ██████████ |              |               |              |              |
-Clases y algoritmo            |   ██████████ | ████████████ |               |              |              |
-algoritmo: Registrar Usuario  |              | ████████████ |               |              |              |
-algoritmo: Registrar Ítem     |              | ████████████ | ██████        |              |              |
+Clases y algoritmo            |   ██    ██   | ██    ██     | ██    ██      | ██    ██     | ██    ██     |
+algoritmo: Registrar Usuario  |              |              | ███████████   |              |              |
+algoritmo: Registrar Ítem     |              |              | ██████████████|              |              |
 algoritmo: Registrar Prestamo |              |              | ████████████  |              |              |
 algoritmo: Devoluciones       |              |              | ████████████  |              |              |
 algoritmo: Ventas/Facturas    |              |              | ████████████  | ███████      |              |
