@@ -46,8 +46,6 @@ Nuestro nombre refleja el propósito central: hacer que prestar y recordar sea f
 
 ## 4. Licencia del software
 
-Este software se distribuye bajo la licencia:
-
 Este software se distribuye bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. 
 
 Este mismo permite a cualquier persona compartir, copiar, redistribuir, mezclar, transformar y crear a partir del código de PrestaFácil para cualquier propósito, incluso comercial, siempre y cuando se otorgue el crédito apropiado a los 4 autores originales (Thomas Gomez, Laura Cardona, Juan jose algo, Edinto Hincapie) y se indique en caso de realizarse cambios al codigo.
