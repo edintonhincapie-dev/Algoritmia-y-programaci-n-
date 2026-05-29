@@ -109,20 +109,20 @@ PrestaFácil es una aplicacion de consola desarrollada en Python que funciona co
 
 ### 7.1 Diagrama de gantt
 
-Actividad                     | S1 (11-17/05)| S2 (18-24/05)| S3 (25-31/05) | S4 (01-07/06)| fecha 5     |
-------------------------------|:------------:|:------------:|:-------------:|:------------:|:-----------:|
-Analisis de requisitos        |   ██████████ |              |               |              |             |
-Diseño de las actas           |   ██████████ |              |               |              |             |
-Clases y algoritmo            |   ██████████ |   ██████████ |               |              |             |
-algoritmo: Registrar Usuario  |              |   ██████████ |               |              |             |
-algoritmo: Registrar Ítem     |              |   ██████████ |   ████        |              |             |
-algoritmo: Registrar Prestamo |              |              |   ██████████  |              |             |
-algoritmo: Devoluciones       |              |              |   ██████████  |              |             |
-algoritmo: Ventas/Facturas    |              |              |   ██████████  |   ██████     |             |
-algoritmo: Administrador      |              |              |               |   ██████████ |             |
-Pruebas y correcciones        |              |              |               |   ██████████ |   ████████  |
-Manual de usuario             |              |              |               |   ██████     |             |
-README y documentacion        |   ████       |   ██████████ |   ████        |              |             |
+Actividad                     | S1 (11-17/05)| S2 (18-24/05)| S3 (25-31/05) | S4 (01-07/06)| S5 (08-14/06)|
+------------------------------|:------------:|:------------:|:-------------:|:------------:|:------------:|
+Analisis de requisitos        |   ██████████ |              |               |              |              |
+Diseño de las actas           |   ██████████ |              |               |              |              |
+Clases y algoritmo            |   ██████████ | ████████████ |               |              |              |
+algoritmo: Registrar Usuario  |              | ████████████ |               |              |              |
+algoritmo: Registrar Ítem     |              | ████████████ | ██████        |              |              |
+algoritmo: Registrar Prestamo |              |              | ████████████  |              |              |
+algoritmo: Devoluciones       |              |              | ████████████  |              |              |
+algoritmo: Ventas/Facturas    |              |              | ████████████  | ███████      |              |
+algoritmo: Administrador      |              |              |               | ████████████ |              |
+Pruebas y correcciones        |              |              |               | ████████████ | ████████████ |
+Manual de usuario             |              |              |               | █████████    |              |
+README y documentacion        | ██████████   | ████████████ | ██████        |              |              |
 
 ### 7.2 Presupueto del proyecto
 
