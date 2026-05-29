@@ -14,25 +14,26 @@ Thomas Gomez Orejuela — Líder del equipo
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante de Ingeniería Industrial con interés en la optimización de procesos y programación aplicada. Responsable de la coordinación del equipo, la arquitectura del software y la gestión del repositorio GitHub. Habilidades en lógica algorítmica, trabajo en equipo y resolución de problemas.
+Descripción: Estudiante de Ingeniería Industrial con interés en la optimización de procesos y programación aplicada. Responsable de la coordinación del equipo, la arquitectura del software. Habilidades en lógica algorítmica, trabajo en equipo y resolución de problemas.
 
 Edinton Hincapie — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante de Ingeniería Industrial con enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones. Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
+Cuenta con un enfoque en la mejora de sistemas y automatización de tareas. Encargado del desarrollo de los módulos de préstamos y devoluciones, tambien, encargado de la gestión del repositorio GitHub.
+Fortalezas en programación orientada a objetos, análisis de requisitos y pensamiento lógico estructurado.
 
 Juan Jose (Apellido) — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante de Ingeniería Industrial con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
+Cuenta con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
 
 Laura Cardona — Documentación y pruebas/ Desarrollador
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
-Descripción: Estudiante de Ingeniería Industrial con habilidades en redacción técnica, organización y control de calidad. Encargada del manual de usuario, las pruebas funcionales del sistema y el seguimiento del plan de proyecto. Fortalezas en atención al detalle, comunicación y gestión documental.
+Cuenta con habilidades en redacción técnica, organización y control de calidad. Encargada del manual de usuario, las pruebas funcionales del sistema y el seguimiento del plan de proyecto. Fortalezas en atención al detalle, comunicación y gestión documental.
 
 ## 3. Nombre del proyecto
 
