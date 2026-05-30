@@ -3,7 +3,7 @@
 ## 1. Integrantes
 | Nombre | Tipo de documento | Rol |
 | ------------ | ------------ | ------------ |
-| Thomas Gomez Orejuela| CC| Lider de equipo|
+| Thomas Gomez Orejuela| CC: 1020110480| Lider de equipo|
 | Edinton Hincapie algo| CC| Desarrollador/ Documentacion|
 | Laura Cardona algo| CC| Desarrollador / Documentacion|
 |Juan Jose Urrego Higuita| CC| Desarrollador / Documentacion|
@@ -42,7 +42,7 @@ Prestafacil
 PrestaFácil es un sistema de consola desarrollado en Python que permite gestionar de forma organizada el préstamo de objetos personales: videojuegos, herramientas, libros, dinero y más.
 Nuestro nombre refleja el propósito central: hacer que prestar y recordar sea fácil, sin depender de la memoria del prestador.
 
-![PrestaFácil](<logo empresa.jpg>)
+![Logo empresa](image.png)
 
 ## 4. Licencia del software
 
