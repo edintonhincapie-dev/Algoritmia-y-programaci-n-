@@ -76,7 +76,7 @@ PrestaFácil es una aplicacion de consola desarrollada en Python que funciona co
 
 ### 6.1 Requisitos funcionales
 
-* Registro de Usuarios: El sistema debe registrar clientes validando que el nombre y apellido no contengan numeros ni tengan menos de 3 letras. El documento debe poseer exactamente 10 dígitos puramente numericos (Cedula colombiana). El correo debe contener un "@" y terminar en ".com". Ademas, se debe asignar obligatoriamente un tiempo de prestamo de 5, 10, 15 o 30 días.
+* Registro de Usuarios: El sistema debe registrar clientes validando que el nombre y apellido no contengan numeros ni tengan menos de 3 letras. El documento debe poseer entre 3 y 15 dígitos puramente numericos. El correo debe contener un "@" y terminar en ".com". Ademas, se debe asignar obligatoriamente un tiempo de prestamo de 5, 10, 15 o 30 días.
 
 * Registro de items: El sistema debe permitir registrar artículos asignando un nombre (mínimo 3 letras, permite numeros), un precio de compra, una categoria (Videojuegos, Libros, Música y video, Herramientas, Dinero, Miscelaneo) y un ID alfanumerico único derivado de su categoria. Ademas, se debe registrar su estado de calidad.
 
