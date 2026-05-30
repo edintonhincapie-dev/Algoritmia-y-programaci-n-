@@ -129,12 +129,12 @@ El proyecto es desarrollado por 4 estudiantes que invierten un total de 50 horas
 1 SMLV Colombia 2026 = $1.750.905. COP/mes ---> 1 mes : 192 horas
 Valor hora de práctica profesional = $1.750.905. ÷ 192 horas = $9.120 COP/hora
 
-Concepto             | Horas | Valor hora | Total |
----------------------|-------|------------|----------|
-Analisis y diseño    |   8   |    $9.120  | $72.960  |                  
-Desarrollo de codigo |  25   |    $9.120  | $228.000 |                  
-Pruebas              |   8   |    $9.120  | $72.960  |                 
-Documentacion        |   9   |    $9.120  | $82.080  |               
-Total                |  50   |    $9.120  | $456.000 |
+Concepto             | Horas | Valor hora |cantidad de personas|Total horas equipo| Total |
+---------------------|-------|------------|----------|----------|--------|
+Analisis y diseño    |   8   |    $9.120  | 4  |  32   | $291.840   |            
+Desarrollo de codigo |  25   |    $9.120  | 4  | 100   |  $912.000  |           
+Pruebas              |   8   |    $9.120  | 4  |  32   | $291.840   |         
+Documentacion        |   9   |    $9.120  | 4  |  36   | $328.320   |      
+Total                |  50   |    $9.120  | 4  | 200   | $1.824.000 |
 
-Este presupuesto representa el costo en tiempo de formación profesional de los 4 integrantes y no implica pago monetario real.
+Este presupuesto representa el costo en tiempo de formación profesional de los 4 integrantes (50 horas invertidas por cada uno, para un total de 200 horas de desarrollo en equipo) y no implica pago monetario real.
