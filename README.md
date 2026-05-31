@@ -3,10 +3,10 @@
 ## 1. Integrantes
 | Nombre | Tipo de documento | Rol |
 | ------------ | ------------ | ------------ |
-| Thomas Gomez Orejuela| CC: 1020110480| Lider de equipo|
-| Edinton Hincapie algo| CC| Desarrollador/ Documentacion|
-| Laura Cardona algo| CC| Desarrollador / Documentacion|
-|Juan Jose Urrego Higuita| CC| Desarrollador / Documentacion|
+| Thomas Gomez Orejuela| CC:1020110480| Lider de equipo|
+| Edinton Hincapie Villada| CC:1023627213| Desarrollador/ Documentacion|
+| Laura Cardona Garcia| CC:1007374010| Desarrollador / Documentacion|
+|Juan Jose Urrego Higuita| CC:1040976292| Desarrollador / Documentacion|
 
 ## 2. Vinculos academicos y descripcion
 
@@ -16,7 +16,7 @@ Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Interes en la optimizacion de procesos y programacion aplicada. Responsable de la coordinacion del equipo, la arquitectura del software. Habilidades en logica algoritmica, trabajo en equipo y resolucion de conflictos, esto mismo en caso de necesitarse.
 
-* Edinton Hincapie algo — Desarrollador/ Documentacion
+* Edinton Hincapie Villada — Desarrollador/ Documentacion
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
@@ -29,7 +29,7 @@ Programa: Ingeniería Industrial — Universidad de Antioquia
 
 Cuenta con habilidades en manejo de datos y diseño de soluciones computacionales. Responsable de los módulos de registro de ítems, facturación y exportación de datos. Fortalezas en manejo de archivos, validación de datos y documentación técnica.
 
-* Laura Cardona algo — Documentación/ Desarrollador
+* Laura Cardona Garcia — Documentación/ Desarrollador
 
 Programa: Ingeniería Industrial — Universidad de Antioquia
 
