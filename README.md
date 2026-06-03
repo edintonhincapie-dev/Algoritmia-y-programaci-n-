@@ -42,7 +42,7 @@ Prestafacil
 PrestaFácil es un sistema de consola desarrollado en Python que permite gestionar de forma organizada el préstamo de objetos personales: videojuegos, herramientas, libros, dinero y más.
 Nuestro nombre refleja el propósito central: hacer que prestar y recordar sea fácil, sin depender de la memoria del prestador.
 
-![Logo empresa](image.png)
+![Logo empresa](logo.png)
 
 ## 4. Licencia del software
 
