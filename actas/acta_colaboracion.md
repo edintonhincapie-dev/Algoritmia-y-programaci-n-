@@ -35,11 +35,11 @@ Se realizarán reuniones periódicas para evaluar el avance del proyecto y reali
 
 ## Firmas
 
-*** Juan Jose ***   
+***Juan Jose***  
 
-*** Thomas ***      
+***Thomas***      
 
-*** Edinton ***
+***Edinton***
 
-*** Laura ***
+***Laura***
 

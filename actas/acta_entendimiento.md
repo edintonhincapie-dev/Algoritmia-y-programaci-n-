@@ -52,7 +52,7 @@ Establecer los objetivos comunes, expectativas y compromisos de los integrantes 
 Los integrantes declaran haber leído y aceptado los acuerdos establecidos en esta acta.
 
 ## Firmas
-*** Juan Jose ***
-*** Thomas ***
-*** Edinton ***
-*** Laura ***
+***Juan Jose***
+***Thomas***
+***Edinton***
+***Laura***
