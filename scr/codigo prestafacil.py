@@ -13,14 +13,9 @@ import random
 import string
 from datetime import datetime, timedelta
 
-# ─────────────────────────────────────────────
 # CLASE: clsUsuarios
-# ─────────────────────────────────────────────
+
 class clsUsuarios:
-    """
-    pf_Algoritmos - Clase que representa un usuario del sistema PrestaFácil.
-    Almacena información personal y tiempo de préstamo autorizado.
-    """
 
     TIEMPOS_PERMITIDOS = [5, 10, 15, 30]
 
@@ -31,7 +26,8 @@ class clsUsuarios:
         self.correo = correo
         self.tiempo_prestamo = tiempo_prestamo
 
-    # ── Validaciones ──────────────────────────
+    # Validaciones
+
     @staticmethod
     def validar_nombre(nombre: str) -> tuple[bool, str]:
         """pf_Algoritmos - Valida que el nombre/apellido tenga al menos 3 letras y no contenga números."""
@@ -78,10 +74,8 @@ class clsUsuarios:
     def from_dict(d: dict) -> "clsUsuarios":
         return clsUsuarios(d["nombre"], d["apellido"], d["documento"], d["correo"], int(d["tiempo_prestamo"]))
 
-
-# ─────────────────────────────────────────────
 # CLASE: clsPrestamo
-# ─────────────────────────────────────────────
+
 class clsPrestamo:
     """
     pf_Algoritmos - Clase que representa un préstamo en el sistema PrestaFácil.
@@ -158,11 +152,9 @@ class clsPrestamo:
             d["activo"] if isinstance(d["activo"], bool) else d["activo"] == "True",
             d.get("fecha_devolucion", "")
         )
-
-
-# ─────────────────────────────────────────────
+    
 # GESTIÓN DE ARCHIVOS
-# ─────────────────────────────────────────────
+
 RUTA_USUARIOS  = os.path.join("data", "usuarios.json")
 RUTA_PRESTAMOS = os.path.join("data", "prestamos.json")
 RUTA_ADMINS    = os.path.join("data", "admins.json")
@@ -210,10 +202,8 @@ def exportar_csv():
         writer.writerows([p.to_dict() for p in prestamos])
     print(f"\n  ✔ CSV exportado en: {ruta_csv}")
 
+# CONSOLA
 
-# ─────────────────────────────────────────────
-# UTILIDADES DE CONSOLA
-# ─────────────────────────────────────────────
 VERDE  = "\033[92m"
 ROJO   = "\033[91m"
 CYAN   = "\033[96m"
@@ -266,16 +256,15 @@ def menu_principal():
     separador()
     return pedir("Seleccione una opción")
 
-
-# ─────────────────────────────────────────────
 # MÓDULO 1: REGISTRAR USUARIO
-# ─────────────────────────────────────────────
+
 def registrar_usuario():
     banner()
     print(f"  {NEGRITA}── REGISTRAR USUARIO ──{RESET}\n")
     usuarios = cargar_usuarios()
 
     # Nombre
+
     while True:
         nombre = pedir("Nombre")
         ok_val, msg = clsUsuarios.validar_nombre(nombre)
@@ -283,6 +272,7 @@ def registrar_usuario():
         error(msg)
 
     # Apellido
+
     while True:
         apellido = pedir("Apellido")
         ok_val, msg = clsUsuarios.validar_nombre(apellido)
@@ -290,6 +280,7 @@ def registrar_usuario():
         error(msg)
 
     # Documento
+
     while True:
         doc = pedir("Documento (solo números, 3-15 dígitos)")
         ok_val, msg = clsUsuarios.validar_documento(doc)
@@ -301,6 +292,7 @@ def registrar_usuario():
         return
 
     # Correo
+
     while True:
         correo = pedir("Correo electrónico")
         ok_val, msg = clsUsuarios.validar_correo(correo)
@@ -308,6 +300,7 @@ def registrar_usuario():
         error(msg)
 
     # Tiempo de préstamo
+
     while True:
         info(f"Tiempos permitidos: {clsUsuarios.TIEMPOS_PERMITIDOS} días")
         try:
@@ -324,15 +317,14 @@ def registrar_usuario():
     ok(f"Usuario '{nombre} {apellido}' registrado exitosamente.")
     input("\n  Presione Enter para continuar...")
 
-
-# ─────────────────────────────────────────────
 # MÓDULO 2: REGISTRAR ÍTEM
-# ─────────────────────────────────────────────
+
 def registrar_item():
     banner()
     print(f"  {NEGRITA}── REGISTRAR ÍTEM ──{RESET}\n")
 
-    # Nombre del ítem (puede tener números)
+    # Nombre del ítem 
+
     while True:
         nombre = pedir("Nombre del ítem")
         if len(nombre) < 3:
@@ -341,6 +333,7 @@ def registrar_item():
             break
 
     # Categoría
+
     print()
     for k, v in clsPrestamo.CATEGORIAS_NOMBRES.items():
         print(f"  {k}. {v}")
@@ -351,6 +344,7 @@ def registrar_item():
         error("Categoría inválida.")
 
     # Precio
+
     while True:
         try:
             precio = float(pedir("Precio de compra ($)"))
@@ -359,9 +353,10 @@ def registrar_item():
         except ValueError:
             error("Ingrese un precio válido.")
 
-    # Estado (lógica difusa)
+    # Estado 
+
     print()
-    info("Estado del ítem (lógica difusa):")
+    info("Estado del ítem:")
     for k, (nombre_estado, valor) in clsPrestamo.ESTADOS_FUZZY.items():
         print(f"  {k}. {nombre_estado} (μ={valor})")
     while True:
@@ -376,6 +371,7 @@ def registrar_item():
     ok(f"ID generado: {id_item}")
 
     # Guardar como ítem disponible (préstamo sin usuario asignado aún)
+
     prestamos = cargar_prestamos()
     nuevo_item = clsPrestamo(
         id_item=id_item,
@@ -392,10 +388,8 @@ def registrar_item():
     ok(f"Ítem '{nombre}' registrado con ID {id_item}.")
     input("\n  Presione Enter para continuar...")
 
-
-# ─────────────────────────────────────────────
 # MÓDULO 3: REGISTRAR PRÉSTAMO
-# ─────────────────────────────────────────────
+
 def registrar_prestamo():
     banner()
     print(f"  {NEGRITA}── REGISTRAR PRÉSTAMO ──{RESET}\n")
@@ -442,10 +436,8 @@ def registrar_prestamo():
     info(f"Fecha: {datetime.today().strftime('%Y-%m-%d')} | Tiempo máx: {usuario.tiempo_prestamo} días")
     input("\n  Presione Enter para continuar...")
 
+# REGISTRAR DEVOLUCIÓN
 
-# ─────────────────────────────────────────────
-# MÓDULO 4: REGISTRAR DEVOLUCIÓN
-# ─────────────────────────────────────────────
 def registrar_devolucion():
     banner()
     print(f"  {NEGRITA}── REGISTRAR DEVOLUCIÓN ──{RESET}\n")
@@ -487,6 +479,7 @@ def registrar_devolucion():
     guardar_prestamos(prestamos)
 
     # Generar certificado
+
     os.makedirs(RUTA_DOCS, exist_ok=True)
     nombre_doc = f"{usuario.apellido}_{hoy}_{id_dev}.txt"
     ruta_cert  = os.path.join(RUTA_DOCS, nombre_doc)
@@ -510,10 +503,8 @@ def registrar_devolucion():
     ok(f"Devolución registrada. Certificado: {ruta_cert}")
     input("\n  Presione Enter para continuar...")
 
+# ÍTEMS CON MÁS DE 30 DÍAS (GENERAR VENTA)
 
-# ─────────────────────────────────────────────
-# MÓDULO 5: ÍTEMS CON MÁS DE 30 DÍAS (GENERAR VENTA)
-# ─────────────────────────────────────────────
 def consultar_vencidos():
     banner()
     print(f"  {NEGRITA}── ÍTEMS CON MÁS DE 30 DÍAS (GENERAR VENTA) ──{RESET}\n")
@@ -566,10 +557,8 @@ def consultar_vencidos():
     exportar_csv()
     input("\n  Presione Enter para continuar...")
 
+# CONSULTAR ARTÍCULOS PRESTADOS
 
-# ─────────────────────────────────────────────
-# MÓDULO 6: CONSULTAR ARTÍCULOS PRESTADOS
-# ─────────────────────────────────────────────
 def consultar_prestados():
     banner()
     print(f"  {NEGRITA}── ARTÍCULOS PRESTADOS (orden por días) ──{RESET}\n")
@@ -596,10 +585,8 @@ def consultar_prestados():
     info(f"Total activos: {len(activos)}")
     input("\n  Presione Enter para continuar...")
 
+# ADMINISTRADOR
 
-# ─────────────────────────────────────────────
-# MÓDULO 7: ADMINISTRADOR
-# ─────────────────────────────────────────────
 def modulo_administrador():
     banner()
     print(f"  {NEGRITA}── MÓDULO ADMINISTRADOR ──{RESET}\n")
@@ -682,7 +669,7 @@ def main():
     """pf_Algoritmos - Punto de entrada principal de PrestaFácil."""
     os.makedirs("data", exist_ok=True)
     os.makedirs("doc", exist_ok=True)
-    cargar_admins()  # inicializa admin por defecto si no existe
+    cargar_admins()  
 
     while True:
         op = menu_principal()
