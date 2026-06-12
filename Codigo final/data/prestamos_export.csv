@@ -1,0 +1,2 @@
+id_item,nombre_item,categoria,precio,estado,documento_usuario,fecha_prestamo,activo,fecha_devolucion
+VJ-9QCQ,Computador,Videojuegos,250000.0,Excelente,1020110480,2026-06-12,False,2026-06-12

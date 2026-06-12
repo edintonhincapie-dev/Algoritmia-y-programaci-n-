@@ -1,0 +1,13 @@
+[
+  {
+    "id_item": "VJ-9QCQ",
+    "nombre_item": "Computador",
+    "categoria": "Videojuegos",
+    "precio": 250000.0,
+    "estado": "Excelente",
+    "documento_usuario": "1020110480",
+    "fecha_prestamo": "2026-06-12",
+    "activo": false,
+    "fecha_devolucion": "2026-06-12"
+  }
+]
