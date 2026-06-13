@@ -160,7 +160,7 @@ ARCHIVO_REAL = os.path.realpath(__file__)
 DIRECTORIO = os.path.dirname(os.path.abspath(__file__))
 
 RUTA_USUARIOS  = os.path.join(DIRECTORIO, "data", "usuarios.json")
-RUTA_PRESTAMOS = os.path.join(DIRECTORIO, "data", "prestamos.json")
+RUTA_PRESTAMOS = os.path.join(DIRECTORIO, "data", "items.json")
 RUTA_ADMINS    = os.path.join(DIRECTORIO, "data", "admins.json")
 RUTA_DOCS      = os.path.join(DIRECTORIO, "doc")
 
@@ -673,8 +673,8 @@ def modulo_administrador():
 # ─────────────────────────────────────────────
 def main():
     """pf_Algoritmos - Punto de entrada principal de PrestaFácil."""
-    os.makedirs("data", exist_ok=True)
-    os.makedirs("doc", exist_ok=True)
+    os.makedirs(os.path.join(DIRECTORIO, "data") , exist_ok=True)
+    os.makedirs(os.path.join(DIRECTORIO, "doc"), exist_ok=True)
     cargar_admins()  
 
     while True:

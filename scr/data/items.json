@@ -1,0 +1,24 @@
+[
+  {
+    "id_item": "VJ-IKIE",
+    "nombre_item": "Pcs",
+    "categoria": "Videojuegos",
+    "precio": 2000.0,
+    "estado": "Excelente",
+    "documento_usuario": "1020110480",
+    "fecha_prestamo": "2026-06-13",
+    "activo": true,
+    "fecha_devolucion": ""
+  },
+  {
+    "id_item": "LB-MBS3",
+    "nombre_item": "DON QUIJOTE",
+    "categoria": "Libros",
+    "precio": 500000.0,
+    "estado": "Excelente",
+    "documento_usuario": "",
+    "fecha_prestamo": "",
+    "activo": false,
+    "fecha_devolucion": ""
+  }
+]
