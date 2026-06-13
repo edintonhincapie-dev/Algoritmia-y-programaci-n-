@@ -155,10 +155,14 @@ class clsPrestamo:
     
 # GESTIÓN DE ARCHIVOS
 
-RUTA_USUARIOS  = os.path.join("data", "usuarios.json")
-RUTA_PRESTAMOS = os.path.join("data", "prestamos.json")
-RUTA_ADMINS    = os.path.join("data", "admins.json")
-RUTA_DOCS      = "doc"
+ARCHIVO_REAL = os.path.realpath(__file__)
+
+DIRECTORIO = os.path.dirname(os.path.abspath(__file__))
+
+RUTA_USUARIOS  = os.path.join(DIRECTORIO, "data", "usuarios.json")
+RUTA_PRESTAMOS = os.path.join(DIRECTORIO, "data", "prestamos.json")
+RUTA_ADMINS    = os.path.join(DIRECTORIO, "data", "admins.json")
+RUTA_DOCS      = os.path.join(DIRECTORIO, "doc")
 
 def _cargar_json(ruta: str) -> list:
     if not os.path.exists(ruta):
@@ -167,6 +171,7 @@ def _cargar_json(ruta: str) -> list:
         return json.load(f)
 
 def _guardar_json(ruta: str, datos: list):
+    # Esto asegurará que se creen las carpetas 'data' o 'doc' dentro de 'scr' si no existen
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
     with open(ruta, "w", encoding="utf-8") as f:
         json.dump(datos, f, indent=2, ensure_ascii=False)
@@ -195,12 +200,13 @@ def cargar_admins() -> dict:
 def exportar_csv():
     """pf_Algoritmos - Exporta préstamos activos a CSV."""
     prestamos = cargar_prestamos()
-    ruta_csv = os.path.join("data", "prestamos_export.csv")
+    # Modificado también para que el CSV se exporte dentro de la subcarpeta data correcta
+    ruta_csv = os.path.join(DIRECTORIO, "data", "prestamos_export.csv")
     with open(ruta_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["id_item","nombre_item","categoria","precio","estado","documento_usuario","fecha_prestamo","activo","fecha_devolucion"])
         writer.writeheader()
         writer.writerows([p.to_dict() for p in prestamos])
-    print(f"\n  ✔ CSV exportado en: {ruta_csv}")
+    print(f"\n   ✔ CSV exportado en: {ruta_csv}")
 
 # CONSOLA
 
